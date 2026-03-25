@@ -41,7 +41,7 @@ pub use effects::horizon::HorizonOptions;
 
 const DEFAULT_BACKGROUND: Color = Color::WHITE;
 const DEPTH_FORMAT: TextureFormat = TextureFormat::Depth24PlusStencil8;
-const TARGET_TEXTURE_FORMAT: TextureFormat = TextureFormat::Rgba8UnormSrgb;
+const TARGET_TEXTURE_FORMAT: TextureFormat = TextureFormat::Rgba8Unorm;
 
 type TexturesMap = HashMap<u64, (Weak<DecodedImage>, Arc<BindGroup>)>;
 
