@@ -16,7 +16,7 @@ use crate::render::render_bundle::RenderBundle;
 use crate::render::{Canvas, ImagePaint, PackedBundle};
 use crate::tile_schema::{TileIndex, WrappingTileIndex};
 
-const IMAGE_CACHE_SIZE: usize = 5000;
+const IMAGE_CACHE_SIZE: usize = 1000;
 
 /// Provider of tlies for a [`RusterTileLayer`](super::RasterTileLayer).
 #[cfg_attr(target_arch = "wasm32", async_trait::async_trait(?Send))]
